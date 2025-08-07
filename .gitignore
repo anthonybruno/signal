@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Editor-specific
+.vscode/
+.idea/
+
+# Logs or temp
+*.log
+*.tmp
+
+# Build artifacts (just in case)
+dist/
+build/
+.cache/
