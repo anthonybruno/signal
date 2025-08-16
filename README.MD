@@ -1,10 +1,10 @@
 # Signal
 
-[Signal](https://signal.abruno.net) is a multi-service portfolio system built to explore modern developer workflows with AI — framed as a conversational experience to make my engineering work discoverable and approachable. It brings together a Next.js frontend, an Express backend with ChromaDB, and an MCP-compatible server for live API actions, all supported by a shared dev-config package for consistent linting, formatting, and release automation.
+[Signal is a multi-service portfolio system](https://signal.abruno.net) built to explore modern developer workflows with AI — framed as a conversational experience to make my engineering work discoverable and approachable. It brings together a Next.js frontend, an Express backend with ChromaDB, and an MCP-compatible server for live API actions, all supported by a shared dev-config package for consistent linting, formatting, and release automation.
 
 The goal isn’t to ship a product, but to show how I approach developer experience, architecture clarity, and maintainability through well-structured services, shared standards, and clear documentation.
 
-[Live demo](https://signal.abruno.net)
+[**See it in action →**](https://signal.abruno.net)
 
 ## Why?
 
@@ -52,8 +52,6 @@ Streaming response
 Frontend display
 ```
 
----
-
 ## Tech stack
 
 - Frontend: Next.js, Tailwind
@@ -62,12 +60,11 @@ Frontend display
 - Integrations: Model Context Protocol (MCP), OpenRouter
 - Ops: Docker, GitHub Actions, semantic-release
 
----
-
 ## How to explore
 
-- [Live demo](https://signal.abruno.net)
+- [See it in action](https://signal.abruno.net)
 - [Frontend](https://github.com/anthonybruno/signal-frontend)
 - [Backend](https://github.com/anthonybruno/signal-backend)
 - [RAG server](https://github.com/anthonybruno/signal-rag)
 - [MCP server](https://github.com/anthonybruno/signal-mcp)
+- [Dev Config](https://www.npmjs.com/package/abruno-dev-config)
