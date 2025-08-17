@@ -1,6 +1,6 @@
 # Signal
 
-![GPT Auto Commit Screenshot](https://abruno.net/github-share-signal.png)
+![Signal Screenshot](https://abruno.net/github-share-signal.png)
 
 [Signal is a multi-service portfolio system](https://signal.abruno.net) built to explore modern developer workflows with AI — framed as a conversational experience to make my engineering work discoverable and approachable. It brings together a Next.js frontend, an Express backend with ChromaDB, and an MCP-compatible server for live API actions, all supported by a shared dev-config package for consistent linting, formatting, and release automation.
 
