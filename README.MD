@@ -24,34 +24,7 @@ Signal is made up of four core services:
 The frontend sends requests to a thin backend that performs intent analysis and routing. Depending on the request, it may pull context from the RAG server, call tools through the MCP server, or go directly to the model. The backend assembles a prompt, calls OpenRouter, and streams the response back to the frontend. Shared [dev-config](https://www.npmjs.com/package/abruno-dev-config) keeps services consistent while remaining independently deployable.
 
 ```
-Request
-  │
-  ▼
-Frontend
-  │
-  ▼
-Backend API
-  │
-  ▼
-Smart routing and intent analysis
-  │
-  ├──────────────┬──────────────┬──────────────┐
-  │              │              │              │
-  ▼              ▼              ▼              ▼
-RAG server    MCP server    Direct path    Guardrails
-(personal)    (live data)   to model       auth and limits
-  │              │              │              │
-  └──────────────┴──────────────┴──────────────┘
-                     │
-                     ▼
-Prompt assembly and OpenRouter processing
-(with base instructions and retrieved context when present)
-                     │
-                     ▼
-Streaming response
-                     │
-                     ▼
-Frontend display
+[Frontend] → [Backend] → [OpenRouter] → [RAG/MCP/Direct] → [Response] → [Frontend]
 ```
 
 ## Tech stack
