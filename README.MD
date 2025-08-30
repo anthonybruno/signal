@@ -1,5 +1,3 @@
-# Signal
-
 ![Signal Screenshot](https://signal.abruno.net/og-share.png)
 
 Signal is an interactive portfolio built as a multi-service system. Instead of a static page, it gives you a conversational way to explore my work, projects, and leadership experience. Under the hood, it demonstrates how I approach frontend craft, system design, and modern AI workflows.
