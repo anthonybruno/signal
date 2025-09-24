@@ -30,7 +30,7 @@ It's less about shipping a product and more about demonstrating service boundari
 - [Live demo](https://signal.abruno.net)
 - [Frontend repo](https://github.com/anthonybruno/signal-frontend)
 - [Backend repo](https://github.com/anthonybruno/signal-backend)
-- [RAG repo](https://github.com/anthonybruno/signal-rag)
+- [RAG repo](https://github.com/anthonybruno/signal-rag-data)
 - [MCP repo](https://github.com/anthonybruno/signal-mcp)
 - [Shared dev config](https://www.npmjs.com/package/abruno-dev-config)
 
