@@ -32,7 +32,7 @@ It's less about shipping a product and more about demonstrating service boundari
 - [Backend repo](https://github.com/anthonybruno/signal-backend)
 - [RAG repo](https://github.com/anthonybruno/signal-rag-data)
 - [MCP repo](https://github.com/anthonybruno/signal-mcp)
-- [Shared dev config](https://www.npmjs.com/package/abruno-dev-config)
+- [Shared dev config](https://github.com/anthonybruno/dev-config)
 
 ## Why it matters
 
